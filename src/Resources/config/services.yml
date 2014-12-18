@@ -1,0 +1,9 @@
+services:
+
+  doctrine_encoded_cache.encoder:
+    class: Trt\Doctrine\Cache\Encryptor\AES256Encryptor
+    arguments: [@doctrine_encoded_cache.key.provider]
+
+  doctrine_encoded_cache:
+    class: Trt\Doctrine\Cache\Provider\CacheProviderDecorator
+    arguments: [@doctrine_encoded_cache.cache, @doctrine_encoded_cache.encoder]
