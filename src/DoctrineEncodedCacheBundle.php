@@ -8,7 +8,9 @@
 
 namespace Trt\Doctrine\Cache\Bundle;
 
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Trt\Doctrine\Cache\Bundle\Compiler\CompilerPass;
 
 class DoctrineEncodedCacheBundle extends Bundle
 {}

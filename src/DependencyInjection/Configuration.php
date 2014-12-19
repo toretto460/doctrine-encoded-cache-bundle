@@ -19,8 +19,8 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-            ->scalarNode('key_provider')->cannotBeEmpty()->end()
-            ->scalarNode('cache')->cannotBeEmpty()->end()
+                ->scalarNode('key_provider')->isRequired()->cannotBeEmpty()->end()
+                ->scalarNode('cache')->isRequired()->cannotBeEmpty()->end()
             ->end();
 
         return $treeBuilder;
