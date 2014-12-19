@@ -8,6 +8,7 @@
 
 namespace Trt\Doctrine\Cache\Bundle;
 
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class DoctrineEncodedCacheBundle
+class DoctrineEncodedCacheBundle extends Bundle
 {}
