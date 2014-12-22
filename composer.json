@@ -3,7 +3,7 @@
     "description": "Doctrine Encrypted Cache Bundle",
     "require": {
         "symfony/framework-bundle": "~2.6",
-        "trt/doctrine-encrypted-cache": "dev-master"
+        "trt/doctrine-encrypted-cache": "~0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.4"

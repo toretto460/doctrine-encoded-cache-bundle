@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5e1ac196bda1763565ebfd12b918e7aa",
+    "hash": "fcd8b91c35128bb64837380cd9ebb9f3",
     "packages": [
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.1",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "6a6bec0670bb6e71a263b08bc1b98ea242928633"
+                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/6a6bec0670bb6e71a263b08bc1b98ea242928633",
-                "reference": "6a6bec0670bb6e71a263b08bc1b98ea242928633",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/eeda578cbe24a170331a1cfdf78be723412df7a4",
+                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4",
                 "shasum": ""
             },
             "require": {
@@ -72,7 +72,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2014-09-25 16:45:30"
+            "time": "2014-12-20 20:49:38"
         },
         {
             "name": "doctrine/cache",
@@ -1050,16 +1050,16 @@
         },
         {
             "name": "trt/doctrine-encrypted-cache",
-            "version": "dev-master",
+            "version": "v0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/toretto460/doctrine-encoded-cache.git",
-                "reference": "a4c0aa88a70638097d87544938d121e80112b593"
+                "reference": "5db9c5bd1ae7c02dcd239a8a7ee6974c220a5844"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/toretto460/doctrine-encoded-cache/zipball/a4c0aa88a70638097d87544938d121e80112b593",
-                "reference": "a4c0aa88a70638097d87544938d121e80112b593",
+                "url": "https://api.github.com/repos/toretto460/doctrine-encoded-cache/zipball/5db9c5bd1ae7c02dcd239a8a7ee6974c220a5844",
+                "reference": "5db9c5bd1ae7c02dcd239a8a7ee6974c220a5844",
                 "shasum": ""
             },
             "require": {
@@ -1087,7 +1087,7 @@
                 }
             ],
             "description": "Doctrine Encrypted Cache Drivers",
-            "time": "2014-12-17 20:27:47"
+            "time": "2014-12-19 18:16:55"
         }
     ],
     "packages-dev": [
@@ -1885,9 +1885,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "trt/doctrine-encrypted-cache": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "platform": [],
     "platform-dev": []
