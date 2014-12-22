@@ -2,7 +2,7 @@
     "name": "trt/doctrine-encrypted-cache-bundle",
     "description": "Doctrine Encrypted Cache Bundle",
     "require": {
-        "symfony/framework-bundle": "~2.6",
+        "symfony/framework-bundle": "~2.3",
         "trt/doctrine-encrypted-cache": "~0.1"
     },
     "require-dev": {
