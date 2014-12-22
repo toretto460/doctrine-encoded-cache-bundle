@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Trt\\Doctrine\\Cache\\Bundle": "src"
+            "Trt\\Doctrine\\Cache\\Bundle\\": "src"
         }
     }
 }
